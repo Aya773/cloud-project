@@ -6,7 +6,7 @@ plus the time to boot a new VM.
 
 ## Environment
 - MacBook Pro, Apple M2, 8 GB RAM
-- Multipass 1.17.0, Ubuntu 26.04.1 LTS (aarch64), 1 vCPU, 2 GB RAM
+- Multipass 1.17.0 (QEMU driver), Ubuntu 26.04.1 LTS (aarch64), 1 vCPU, 2 GB RAM
 - Docker 29.1.3 (Ubuntu docker.io package), image python:3.14-slim
 - Load tool: ApacheBench (20,000 requests, 10 concurrent)
 
@@ -18,6 +18,7 @@ plus the time to boot a new VM.
 - results_run1_singlethread.csv: first run, kept as a record
 - boot_times.txt: three VM boot-time runs
 - make_charts.py: produces the chart_*.png files
+- architecture.drawio.png: architecture diagram (can be reopened and edited in draw.io)
 
 ## How to reproduce
 1. Launch an Ubuntu VM with Multipass and install docker.io and apache2-utils.
