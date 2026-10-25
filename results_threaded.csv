@@ -1,0 +1,7 @@
+setup,run,startup_ms,rss_kb,req_per_sec
+vm,1,56,22132,9684.75
+container,1,519,22540,5954.74
+vm,2,71,21200,9418.17
+container,2,510,22548,5549.82
+vm,3,80,20816,11873.04
+container,3,638,22552,5529.38

@@ -1,0 +1,5 @@
+Multipass 1.17.0, macOS, Apple M2 8 GB
+multipass launch --name bootvm --memory 1G --disk 5G
+run1: 2:35.67 (155.67 s)
+run2: 2:32.89 (152.89 s)
+run3: 2:33.99 (153.99 s)
